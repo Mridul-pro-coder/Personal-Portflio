@@ -1,7 +1,7 @@
 import { AiFillGithub } from "react-icons/ai";
 import { useState } from "react";
 import ShinyEffect from "./ShinyEffect";
-import soon from "../assets/soon.png"
+import soon from "../assets/soon.jpeg"
 import project1 from "../assets/project 1.png"
 
 

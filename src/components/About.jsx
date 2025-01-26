@@ -9,7 +9,15 @@ const About = () => {
   return (
     <div className='max-w-[1300px] mx-auto p-6 grid md:grid-cols-2 gap-8 place-items-center' id='About'>
         <div className='md:hidden bg-white bg-opacity-10 backdrop-blur-lg rounded-lg p-6 flex flex-wrap gap-4 text-4xl justify-center'>
-            
+            <DiHtml5 className='text-orange-600' />
+            <DiCss3 className='text-blue-600'/>
+            <DiJavascript1 className='text-yellow-600'/>
+            <DiReact className='text-blue-500'/>
+            <DiNodejsSmall className='text-green-500'/>
+            <DiBootstrap className='text-purple-600'/>
+            <DiGithubBadge className='text-gray-600'/>
+            <DiMongodb className='text-green-600'/>
+            <DiPython className='text-blue-400'/>   
             
             
         </div>
@@ -40,7 +48,7 @@ const About = () => {
             <DiBootstrap className='text-purple-600'/>
             <DiGithubBadge className='text-gray-600'/>
             <DiMongodb className='text-green-600'/>
-            <DiPython className='text-blue-100'/>
+            <DiPython className='text-blue-400'/>
             
             </div>
 
@@ -55,7 +63,7 @@ const About = () => {
                <DiJavascript1 className='text-yellow-600'/>
                <DiReact className='text-blue-500'/> 
                <DiBootstrap className='text-purple-600'/>
-               <BiLogoTailwindCss className="text-blue-300" />
+               <BiLogoTailwindCss className="text-blue-400" />
             
             </div>
 
@@ -91,7 +99,7 @@ const About = () => {
             <DiNodejsSmall className='text-green-500'/>
             <DiGithubBadge className='text-orange-600'/>
             <DiMongodb className='text-green-600'/>
-            <DiPython className='text-blue-300'/>
+            <DiPython className='text-blue-400'/>
             
             </div>
 

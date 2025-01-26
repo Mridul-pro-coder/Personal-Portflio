@@ -1,7 +1,7 @@
 import { AiFillGithub } from "react-icons/ai";
 import { useState } from "react";
 import ShinyEffect from "./ShinyEffect";
-import logo from "../assets/logo.png"
+import soon from "../assets/soon.png"
 import project1 from "../assets/project 1.png"
 
 
@@ -17,19 +17,9 @@ const projects=[
         }
 
     },
+    
     {
-        img: logo,
-        title:"project #2",
-        description:"",
-        links:{
-            site:"#",
-            github:"",
-            
-        }
-
-    },
-    {
-        img: logo,
+        img: soon,
         title:"project #3",
         description:"",
         links:{

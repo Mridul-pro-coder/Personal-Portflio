@@ -20,7 +20,7 @@ const projects=[
     
     {
         img: soon,
-        title:"project #3",
+        title:"project #2",
         description:"",
         links:{
             site:"#",

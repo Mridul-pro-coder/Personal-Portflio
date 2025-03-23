@@ -3,28 +3,40 @@ import { useState } from "react";
 import ShinyEffect from "./ShinyEffect";
 import soon from "../assets/soon.jpeg"
 import project1 from "../assets/project 1.png"
+import project2 from "../assets/project 2.png"
 
 
 const projects=[
     {
         img: project1,
         title:"project #1",
-        description:"",
+        description:"IPhone Website Clone",
         links:{
-            site:"",
-            github:"https://github.com/Mridul-pro-coder/Aether-chat-app-MERN-",
+            site:"https://i-phone-website-clone-omega.vercel.app/",
+            github:"https://github.com/Mridul-pro-coder/IPhone-Website-clone",
 
         }
 
     },
     
     {
-        img: soon,
+        img: project2,
         title:"project #2",
-        description:"",
+        description:"Aether Chat app",
         links:{
-            site:"#",
-            github:"",
+            site:"",
+            github:"https://github.com/Mridul-pro-coder/Aether-chat-app-MERN-",
+            
+        }
+
+    },
+    {
+        img: project3,
+        title:"project #3",
+        description:"Subscription Api Tracker !",
+        links:{
+            site:"",
+            github:"https://github.com/Mridul-pro-coder/Subscription-API-Tracker",
             
         }
 

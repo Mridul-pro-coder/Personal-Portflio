@@ -1,18 +1,19 @@
 import profile  from "../assets/profile.png"
 import { TypeAnimation } from 'react-type-animation';
 import ShinyEffect from './ShinyEffect';
+import resume from "../assets/Resume.pdf"
 
 const Hero = () => {
     const handleDownload = () => {
-        const pdfContent = "that's, my Resume!";
-        const blob = new Blob([pdfContent], { type: 'application/pdf' });
-        const url = URL.createObjectURL(blob);
-        const a = document.createElement('a');
-        a.href = url;
-        a.download = 'download.pdf';
+        const resumeUrl = resume; // Make sure the file is inside the 'public' folder
+        const a = document.createElement("a");
+        a.href = resumeUrl;
+        a.download = "My_Resume.pdf"; // Name of the downloaded file
+        document.body.appendChild(a);
         a.click();
-        URL.revokeObjectURL(url);
-      };
+        document.body.removeChild(a);
+    };
+    
 
 
   return (
